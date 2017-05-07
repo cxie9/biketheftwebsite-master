@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+    font-family: 'Droid Serif', serif;
+}
+
+h1 {
+    background-color: lightgreen;
+    color: darkslategray;
+    font-family: 'Alegreya SC', serif;
+    font-size: 4em;
+    text-align: center;
+    padding: 0.8em;
+}
+
+h2 {
+    color: darkslategray;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    padding: 0.2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    padding: 0.2em;
+    padding-top: 1em;
+    
+}
+
+p, ul {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding: 1em;
+}
+
+a:hover {
+  background-color: #90EE90;  
+}
+
+nav {
+    background-color: #eee;
+    position: static;
+    
+}
+
+
+#stolenBikeImage {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    padding: 1em 0.5em 1em 0.5em;
+    text-align: center;
+}
+
+#theftcircle, #heatmap, .bars {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    padding: 1em 4em 1em 4em;
+    text-align: center;
+}
+
+#fullreport {
+    font-size: 1em;
+    margin-left: 1.5em;
+}
+
+.tab {
+    display: inline-block;
+    color: darkslategray;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 3em;
+}
+
+.secure {
+    font-size: 1.3em;
+    height: 50%;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+.icon {
+    height: 15%;
+    margin: 0.5em;
+    text-align: center;
+    width: 15%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.wheelpoint {
+    width: 0.8em;
+    height: 0.8em;
+    padding: 0.4em;
+    padding-bottom: 0em;
+}
+
+.section {
+    clear: left;
+    clear: right;
+    margin: 20%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background-color: #90EE90;
+}
+
+
+.map-comparison{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.map-comparison iframe{
+    height: 600px;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 95%;
+    padding: 1em 1em 1em 1em;
+    width: 425px;
+}
+
+
+.smedia{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+
